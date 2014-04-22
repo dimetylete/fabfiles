@@ -19,3 +19,4 @@ def upcode_apiplay():
 def upcode_webplay():
     with cd('/webapps/fptplay2/fptplay'):
         sudo('svn up && supervisorctl restart play.fpt.vn')
+
